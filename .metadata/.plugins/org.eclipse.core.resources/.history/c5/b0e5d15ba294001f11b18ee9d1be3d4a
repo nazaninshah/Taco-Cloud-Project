@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- sets the namespace for Thymeleaf attributes,
+	enabling the use of th prefixed tags (like th:src, th:text, etc.).
+-->
+<html xmlns="http:/ /www.w3.org/1999/xhtml" xmlns:th="http:/ /www.thymeleaf.org">
+
+<head>
+	<title>Taco Cloud</title>
+</head>
+
+<body>
+	<h1>Welcome to...</h1>
+	<!-- The static directory acts as the root for static resources.
+		 When you use @{/images/taco.webp}, Thymeleaf translates this into the URL path relative to your web server’s root.
+		 Spring Boot then looks for /images/taco.webp in the static directory,
+		 so the browser loads it from src/main/resources/static/images/taco.webp.
+	-->
+	<img src="@{/images/taco2.jpeg}" />
+</body>
+
+</html>

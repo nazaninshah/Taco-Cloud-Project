@@ -1,0 +1,5 @@
+package tacos.configuration;
+
+public class SecurityConfig {
+
+}
