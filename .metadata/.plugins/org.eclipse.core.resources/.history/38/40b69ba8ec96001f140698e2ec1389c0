@@ -1,0 +1,8 @@
+package tacos.model;
+
+import lombok.Data;
+
+@Data
+public class Ingredient {
+
+}
